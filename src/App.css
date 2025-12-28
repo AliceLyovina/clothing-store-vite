@@ -1,0 +1,108 @@
+body {
+    background-color: goldenrod;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p, .link {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    color: #fec207;
+    font-size: 60px;
+    line-height: 1.3;
+}
+
+.mainTitle {
+    color: #fec207;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.mainText {
+    font-size: 20px;
+    line-height: 0.5;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleText {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #212429;
+    padding: 8px;
+}
+.link {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #6d6c6c;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.linkHome {
+    color: #fec207;
+    font-size: 20px;
+}
+.link:hover {
+    color: #969696;
+    font-weight:bold;
+}
+.linkHome:hover {
+    color: #ffd864;
+}
+
+.mainImgCont {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.mainImg {
+    width: 50%;
+}
+
+
+@media all and (max-width : 1200px) {
+h1 {
+    font-size: 50px;
+    line-height: 1;
+}
+.mainTitle {
+    font-size: 40px;
+    line-height: 1;
+}
+.mainText {
+    font-size: 18px;
+    line-height: 1;
+}
+.mainImg {
+    width: 80%;
+}
+}
+
+@media all and (max-width : 950px) {
+nav {
+    flex-direction: column;
+    width: 100%;
+}
+}
+
+@media all and (max-width : 500px) {
+h1 {
+    font-size: 40px;
+}
+.mainTitle {
+    font-size: 30px;
+}
+.mainImg {
+    width: 90%;
+}
+}

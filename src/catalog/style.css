@@ -1,0 +1,106 @@
+.clothesParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.clothesElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    max-width: 550px;
+}
+.clothesImg {
+    width: 500px;
+    height: 700px;
+    overflow: hidden;
+    border: #212529 5px solid;
+}
+.clothesDesc {
+    text-align: center;
+}
+.clothesParentContainer {
+    display: flex;
+}
+
+.catalogBtns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.catalogBtnQntBlock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #585858;
+    font-size: 20px;
+    color: #cececeff;
+    border-radius: 7px;
+    border: none;
+}
+.catalogBtnQntBlock:active {
+    background-color: #797979;
+}
+.catalogBtnQnt {
+    background-color: transparent;
+    border: none;
+    color: #cececeff;
+    padding: 14px 15px;
+}
+.catalogBtnCart {
+    background-color: #212429;
+    color: #cececeff;
+    padding: 14px 30px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: none;
+}
+.catalogBtnCart:active {
+    background-color: #8b6a17;
+}
+
+.change {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media all and (max-width : 1200px) {
+.clothesElement {
+    max-width: 450px;
+}
+.clothesImg {
+    width: 400px;
+    height: 560px;
+}
+}
+
+@media all and (max-width : 500px) {
+.clothesElement {
+    max-width: 350px;
+}
+.clothesImg {
+    width: 300px;
+    height: 420px;
+}
+.catalogBtnQnt {
+    padding: 10px 12px;
+}
+.catalogBtnCart {
+    padding: 12px 20px;
+}
+.btnContainer {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}

@@ -1,0 +1,46 @@
+.menuParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menuLink {
+    text-decoration: none;
+}
+.menuElement {
+    padding: 10px;
+}
+.menuImg {
+    width: 500px;
+    height: 750px;
+    border: #212529 5px solid;
+}
+.menuHeading {
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+.menuElement:hover .menuHeading {
+    background-color: black;
+}
+.menuElement:hover .menuImg {
+    border: black 5px solid;
+}
+
+
+@media all and (max-width : 1200px) {
+.menuImg {
+    width: 400px;
+    height: 560px;
+}
+}
+
+@media all and (max-width : 500px) {
+.menuImg {
+    width: 300px;
+    height: 420px;
+}
+}

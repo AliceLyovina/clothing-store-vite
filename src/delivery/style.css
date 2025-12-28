@@ -1,0 +1,52 @@
+.deliveryParent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 20px;
+    background: linear-gradient(to right,#212529,#595c5f) no-repeat;
+}
+.deliveryElement {
+    text-align: center;
+    width: 28%;
+    padding: 25px;
+}
+.deliveryTitle {
+    color: #cececeff;
+}
+.deliveryText {
+    color: #cececeff;
+}
+
+
+@media all and (max-width : 1200px) {
+.deliveryParent {
+    width: 85%;
+}
+.deliveryTitle {
+    font-size: 20px;
+}
+.deliveryText {
+    font-size: 15px;
+}
+}
+
+@media all and (max-width : 800px) {
+.deliveryParent {
+    width: 80%;
+}
+.deliveryElement {
+    width: 90%;
+}
+}
+
+@media all and (max-width : 500px) {
+.deliveryParent {
+    width: 80%;
+}
+.deliveryElement {
+    width: 90%;
+}
+}

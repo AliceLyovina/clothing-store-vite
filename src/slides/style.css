@@ -1,0 +1,42 @@
+/* SLIDES */
+.sldGeneral {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin-top: 10px;
+}
+.sldSecond {
+    position: relative;
+}
+.sldImg {
+    width: 100%;
+}
+.sldBtn {
+    color: gray;
+    background: none;
+    border: none;
+    font-size: 40px;
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+}
+.sldBtn:hover {
+    color: #ebebeb;
+}
+.sldMoveOne {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.sldMoveTwo {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+@media all and (max-width : 500px) {
+.sldBtn {
+    width: 80px;
+}
+}
