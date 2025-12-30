@@ -7,7 +7,6 @@ function About() {
             <h2 className="mainTitle">О нас</h2>
             <p className="mainText">Немного информации о нашем райском уголке</p>
 
-
             <div className="contactParent">
                 {data.map((item, index) => (
                     <div className="contactElement" key={index}>

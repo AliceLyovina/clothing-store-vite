@@ -1,26 +1,6 @@
 import './style.css';
 import SectionItem from './SectionItem';
-import imgWoman from '../assets/sections/sctn1.avif';
-import imgMan from '../assets/sections/sctn2.avif';
-import imgChild from '../assets/sections/sctn3.avif';
-
-const sectionsArray = [
-    {
-        section: "women",
-        sectionRu: "Женщины",
-        image: imgWoman
-    },
-    {
-        section: "men",
-        sectionRu: "Мужчины",
-        image: imgMan
-    },
-    {
-        section: "children",
-        sectionRu: "Дети",
-        image: imgChild
-    },
-]
+import { sectionsArray } from './sectionsData';
 
 function Sections() {
     return (
